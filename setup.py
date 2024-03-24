@@ -46,7 +46,7 @@ setup(
     install_requires=[
         'cement>=2.6,<2.6.99',
         'requests',
-        'pystache',
+        'pystache==0.5.4',
     ],
     extras_require={
         ':python_version == "2.7"': ['futures']
